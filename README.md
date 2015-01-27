@@ -1,4 +1,4 @@
-# generator-basic-page [![Build Status](https://secure.travis-ci.org/chekit/generator-basic-page.png?branch=master)](https://travis-ci.org/chekit/generator-basic-page)
+# generator-basic-page
 
 > [Yeoman](http://yeoman.io) generator
 
