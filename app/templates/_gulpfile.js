@@ -4,6 +4,8 @@ var gulp = require('gulp'),
 	cache = require('gulp-cache'),
 	del = require('del');
 
+require('require-dir')('./gulp');
+
 //Clean Dirs
 gulp.task('clean', function (done) {
 	del(['src/css', 'dist'], done);
