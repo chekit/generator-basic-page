@@ -1,0 +1,15 @@
+{
+	"name": "generator-basic-page",
+	"version": "0.1.0",
+	"dependencies": {},
+	"devDependencies": {
+	    "gulp": "^3.8.10",
+	    "gulp-jade": "^0.10.0",
+	    "gulp-ruby-sass": "^0.7.1",
+	    "gulp-autoprefixer": "^1.0.1",
+	    "gulp-csscomb": "^3.0.3",
+	    "gulp-csso": "^0.2.9",
+	    "gulp-jshint": "^1.9.0",
+	    "require-dir": "^0.1.0"
+	}
+}
