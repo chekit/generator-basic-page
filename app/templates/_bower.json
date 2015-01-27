@@ -1,6 +1,9 @@
 {
   "name": "generator-basic-page",
   "version": "0.1.0",
-  "dependencies": {}
+  "dependencies": {
+  	"modernizr": "~2.8.3",
+  	"jquery": "~1.11.0"
+  }
 }
 
