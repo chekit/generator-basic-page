@@ -2,6 +2,7 @@
 
 > [Yeoman](http://yeoman.io) generator
 
+> For that generator you need to update your npm to 2.3.0 or above cause 1.4.0 causes issues with gulp image min (for update info: [Upgrading npm on Windows](https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows))
 
 ## Getting Started
 
