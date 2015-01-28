@@ -70,12 +70,12 @@ gulp.task('html', ['wiredep'], function () {
 gulp.task('images', function () {
 	return gulp.src(paths.images)
 		.pipe(pls.size())
-		.pipe(cache(imagemin({
+		.pipe(cache(pls.imagemin({
 			optimizationLevel: 5,
 			progressive: true,
 			interlaced: true,
 			svgoPlugins: [{removeViewBox: false}],
-			use: [pngcrush({ reduce: true })]
+			use: [pls.pngcrush({ reduce: true })]
 		})))
 		.pipe(gulp.dest('dist/images'))
 		.pipe(pls.size());

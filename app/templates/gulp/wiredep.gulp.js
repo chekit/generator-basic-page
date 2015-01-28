@@ -8,7 +8,7 @@ gulp.task('wiredep', function () {
   return gulp.src('src/*.html')
     .pipe(wiredep({
     	directory: 'src/bower_components',
-		exclude: ['bower_components/modernizr/modernizr.js']
+		exclude: ['src/bower_components/modernizr/modernizr.js']
     }))
-    .pipe(gulp.dest('app'));
+    .pipe(gulp.dest('src'));
 });
