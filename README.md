@@ -37,6 +37,20 @@ Finally, initiate the generator:
 yo basic-page
 ```
 
+### Basic-page generator commands
+
+> To build project you need to write in concole
+
+```bash
+gulp
+```
+
+> To build project and run browserSync for developing you need to write in concole
+
+```bash
+gulp server
+```
+
 ### Getting To Know Yeoman
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
