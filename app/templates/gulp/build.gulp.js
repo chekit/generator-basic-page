@@ -4,6 +4,8 @@ var gulp = require('gulp'),
 	prefix = require('gulp-autoprefixer'),
 	gulpif = require('gulp-if'),
 	cache = require('gulp-cache'),
+	imagemin = require('gulp-imagemin'),
+	pngcrush = require('imagemin-pngcrush'),
 	pls = require('gulp-load-plugins')();
 
 //Paths
@@ -70,12 +72,12 @@ gulp.task('html', ['wiredep'], function () {
 gulp.task('images', function () {
 	return gulp.src(paths.images)
 		.pipe(pls.size())
-		.pipe(cache(pls.imagemin({
+		.pipe(cache(imagemin({
 			optimizationLevel: 5,
 			progressive: true,
 			interlaced: true,
 			svgoPlugins: [{removeViewBox: false}],
-			use: [pls.pngcrush({ reduce: true })]
+			use: [pngcrush({ reduce: true })]
 		})))
 		.pipe(gulp.dest('dist/images'))
 		.pipe(pls.size());
@@ -83,7 +85,7 @@ gulp.task('images', function () {
 
 //JS
 gulp.task('js', function() {
-	var jsFilter = pls.gulpFilter(['src/js/**/*.js', '!src/js/**/_*.js']);
+	var jsFilter = pls.filter(['src/js/**/*.js', '!src/js/**/_*.js']);
 
 	return gulp.src(paths.js)
 		.pipe(pls.jshint())
