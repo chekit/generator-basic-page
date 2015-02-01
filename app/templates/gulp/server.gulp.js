@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 	browserSync = require('browser-sync');
 
 var files = [
-	'./src/sass/**/*',
+	'./src/sass/**/*.sass',
 	'./src/sass/base/fonts/**/*',
 	'./src/*.html',
 	'./bower.json',
