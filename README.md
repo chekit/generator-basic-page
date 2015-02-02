@@ -64,6 +64,4 @@ MIT
 
 ####TODO
 - check wiredep - fails
-- BrowserSync не перегружается после Sass
-- BrowserSync не перегружается после дополнительных стр. jade
 - C помощью команды `yo <command>` создавать страницу *.jade в папке `jade/pages`
