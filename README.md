@@ -67,3 +67,6 @@ MIT
 - BrowserSync не перегружается после Sass
 - BrowserSync не перегружается после дополнительных стр. jade
 - C помощью команды `yo <command>` создавать страницу *.jade в папке `jade/pages`
+- Настроить wiredep для кастомных скриптов
+- Добавить gulp-rename
+- Добавить генерацию humans.txt
