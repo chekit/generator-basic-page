@@ -1,11 +1,16 @@
-# generator-basic-page
-
-> [Yeoman] generator
+# Yeroman Basic Page Generator ( or `generator-basic-page`)
+## Getting Started with Basic Page Generator
+To simply install this generator in your enviroment just follow the steps:
+1. one
+2. two
+3. three
+4. four
+> Sorry I'll describe the process soon...
 
 ###'Allo! 'Allo!
 > For that generator you need to update your *npm* up to **2.3.0** or above because the 1.4.0 version causes issues with gulp-imagemin (for more info: [Upgrading npm on Windows])
 
-## Getting Started
+## Getting Started with Yeoman
 
 ### What is Yeoman?
 
@@ -55,7 +60,7 @@ gulp server
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt] and [Bower], check out the complete [Getting Started Guide].
+If you'd like to get to know Yeoman better and meet some of his friends, [Gulp] and [Bower], check out the complete [Getting Started Guide].
 
 
 ## License
@@ -72,6 +77,6 @@ MIT
 [Upgrading npm on Windows]: https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
 [Yeoman]: http://yeoman.io
 [npm]: https://npmjs.org
-[Grunt]: http://gruntjs.com
+[Gulp]: http://gulpjs.com/
 [Bower]: http://bower.io
 [Getting Started Guide]: https://github.com/yeoman/yeoman/wiki/Getting-Started
