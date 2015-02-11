@@ -1,9 +1,11 @@
 #Folders
-app/bower_components/
 node_modules/
 .tmp/
 .sass-cache/
 dist/
+src/css/
+src/*.html
+src/bower_components/
 #Files
 npm-debug.log
 .sublime-gulp.cache
