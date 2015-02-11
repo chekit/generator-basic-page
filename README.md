@@ -73,6 +73,7 @@ MIT
 - Настроить wiredep для кастомных скриптов
 - Добавить gulp-rename
 - Добавить генерацию humans.txt
+- Закрыть в .gitignore папуку css в src и файлы *.html (так как при инициализации они компилятся автоматом)
 
 [Upgrading npm on Windows]: https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
 [Yeoman]: http://yeoman.io
