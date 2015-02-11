@@ -1,10 +1,12 @@
 # Yeroman Basic Page Generator (`generator-basic-page`)
 ## Getting Started with Basic Page Generator
 To simply install this generator in your enviroment just follow the steps:
+
 1. one
 2. two
 3. three
 4. four
+
 > Sorry I'll describe the process soon...
 
 ###'Allo! 'Allo!
