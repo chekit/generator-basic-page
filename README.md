@@ -74,7 +74,7 @@ MIT
 - C помощью команды `yo <command>` создавать страницу *.jade в папке `jade/pages`
 - Настроить wiredep для кастомных скриптов
 - Добавить gulp-rename
-- Добавить генерацию humans.txt
+- Добавить генерацию [humans.txt]
 - Закрыть в .gitignore папуку css в src и файлы *.html (так как при инициализации они компилятся автоматом)
 
 [Upgrading npm on Windows]: https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
@@ -83,3 +83,4 @@ MIT
 [Gulp]: http://gulpjs.com/
 [Bower]: http://bower.io
 [Getting Started Guide]: https://github.com/yeoman/yeoman/wiki/Getting-Started
+[humans.txt]: https://github.com/haydenbleasel/gulp-humans
