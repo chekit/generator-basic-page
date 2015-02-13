@@ -75,6 +75,7 @@ MIT
 - Настроить wiredep для кастомных скриптов
 - Добавить gulp-rename
 - Добавить генерацию [humans.txt]
+- Добавить [gulp-changed]
 
 [Upgrading npm on Windows]: https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
 [Yeoman]: http://yeoman.io
@@ -83,3 +84,4 @@ MIT
 [Bower]: http://bower.io
 [Getting Started Guide]: https://github.com/yeoman/yeoman/wiki/Getting-Started
 [humans.txt]: https://github.com/haydenbleasel/gulp-humans
+[gulp-changed]: https://www.npmjs.com/package/gulp-changed#readme
