@@ -1,19 +1,20 @@
 include ../_config
 include ../_tools/_vars
 include ../_tools/_mixins
-
-include ../_includes/_head
+doctype
+  html.no-js
+    include ../_includes/_head
   
-  body
-    block content
-        <!--[if lt IE 8]>
-        p.browsehappy
-          | You are using an <strong>outdated</strong> browser.
-          | Please <a href="http://browsehappy.com/">upgrade your browser</a>
-          | to improve your experience.
-        <![endif]-->
-
-        //- Add your site or application content here
-        p Hello world! This is HTML5 Boilerplate.
-
-    include ../_includes/_scripts
+    body
+      block content
+          <!--[if lt IE 8]>
+          p.browsehappy
+            | You are using an <strong>outdated</strong> browser.
+            | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+            | to improve your experience.
+          <![endif]-->
+  
+          //- Add your site or application content here
+          p Hello world! This is HTML5 Boilerplate.
+  
+      include ../_includes/_scripts
