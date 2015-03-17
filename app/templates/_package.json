@@ -27,6 +27,7 @@
 		"gulp-useref": "^1.0.2",
 		"gulp-if": "^1.2.5",
 		"gulp-size": "^1.1.0",
+		"gulp-sourcemaps": "^1.5.0",
 		"gulp-imagemin": "~1.2.1",
 		"imagemin-pngcrush": "^4.0.0",
 		"browser-sync": "^1.3.6",
