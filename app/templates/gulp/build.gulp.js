@@ -62,7 +62,7 @@ gulp.task('html', ['wiredep'], function () {
 			// Uglify, Concat Libs 
 			.pipe( gulpif('*.js', pls.uglify()) )
 			//Minify, Optimize CSS
-			.pipe( gulpif('*.css', pls.csso(), pls.sourcemaps.write()) )
+			.pipe( gulpif('*.css', pls.csso()) )
 		.pipe(assets.restore())
 		.pipe(pls.useref())
 		.pipe(gulp.dest('dist'));
