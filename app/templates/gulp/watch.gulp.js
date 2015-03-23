@@ -10,5 +10,5 @@ gulp.task('watch', function () {
 	gulp.watch('bower.json', ['wiredep', browserSync.reload]);
 	gulp.watch('./src/jade/**/*.jade', ['jade', browserSync.reload]);
 	gulp.watch('./src/js/*.js', ['js', browserSync.reload]);
-	gulp.watch('./src/images/**/*.{png,jpg,gif,svg}', ['images', browserSync.reload]);
+	gulp.watch('./src/images/**/*.{png,jpg,gif,svg,json,xml,ico}', ['images', browserSync.reload]);
 });
