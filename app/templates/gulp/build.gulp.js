@@ -13,7 +13,7 @@ var paths = {
 	jade: ['src/jade/index.jade', 'src/jade/pages/*.jade'],
 	sass: 'src/sass/styles.scss',
 	html: 'src/*.html',
-	images: 'src/images/**/*.{png,jpg,gif,svg}',
+	images: 'src/images/**/*.{png,jpg,gif,svg,json,xml,ico}',
 	fonts: 'src/sass/base/fonts/**/*',
 	js: 'src/js/*.js'
 };
