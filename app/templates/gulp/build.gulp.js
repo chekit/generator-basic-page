@@ -43,7 +43,7 @@ gulp.task('jade', function () {
 });
 
 //Sass to CSS
-gulp.task('sass', ['fonts'], function () {
+gulp.task('sass', function () {
 	return gulp.src(paths.sass)
 		.pipe(pls.rubySass())
 		.on('error', errorLog)
@@ -99,6 +99,6 @@ gulp.task('js', function() {
 		.pipe(pls.notify('JS compile complete!'));
 });
 
-gulp.task('build', ['sass', 'jade'], function () {
+gulp.task('build', ['fonts', 'sass', 'jade'], function () {
 	gulp.start('html', 'images', 'js');
 });
