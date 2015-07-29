@@ -77,6 +77,7 @@ MIT
 - Добавить генерацию [humans.txt]
 - Добавить [gulp-changed]
 - Добавить [gulp-sourcemaps]
+- Сделать jQuery необязательным (реализовать запрос на установку)
 
 [Upgrading npm on Windows]: https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
 [Yeoman]: http://yeoman.io
