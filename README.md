@@ -77,7 +77,11 @@ MIT
 - Добавить генерацию [humans.txt]
 - Добавить [gulp-changed]
 - Добавить [gulp-sourcemaps]
+- Добавить [gulp-watch]*
 - Сделать jQuery необязательным (реализовать запрос на установку)
+
+___
+*пример с `gulp-watch` - http://stackoverflow.com/questions/22391527/gulps-gulp-watch-not-triggered-for-new-or-deleted-files
 
 [Upgrading npm on Windows]: https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows
 [Yeoman]: http://yeoman.io
@@ -88,3 +92,4 @@ MIT
 [humans.txt]: https://github.com/haydenbleasel/gulp-humans
 [gulp-changed]: https://www.npmjs.com/package/gulp-changed#readme
 [gulp-sourcemaps]: https://www.npmjs.com/package/gulp-sourcemaps
+[gulp-watch]: https://npmjs.org/package/gulp-watch
