@@ -3,6 +3,7 @@ node_modules/
 .tmp/
 .sass-cache/
 dist/
+src/pages/*.html
 src/css/
 src/*.html
 src/bower_components/

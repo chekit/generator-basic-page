@@ -1,14 +1,30 @@
 'use strict';
 
 var gulp = require('gulp'),
-	browserSync = require('browser-sync');
+	watch = require('gulp-watch');
 
 gulp.task('watch', function () {
-	gulp.watch('./src/sass/**/*', ['sass', browserSync.reload]);
-	gulp.watch('./src/sass/base/fonts/**/*', ['fonts', browserSync.reload]);
-	gulp.watch('./src/*.html', ['html', browserSync.reload]);
-	gulp.watch('bower.json', ['wiredep', browserSync.reload]);
-	gulp.watch('./src/jade/**/*', ['jade', browserSync.reload]);
-	gulp.watch('./src/js/*.js', ['js', browserSync.reload]);
-	gulp.watch('./src/images/**/*', ['images', browserSync.reload]);
+	watch('src/sass/**/*.scss', function () {
+		gulp.start('sass');
+	});
+
+	watch('src/jade/**/*.jade', function () {
+		gulp.start('jade');
+	});
+
+	watch('src/js/**/*.js', function () {
+		gulp.start('scripts');
+	});
+
+	watch('bower.json', function () {
+		gulp.start('wiredep');
+	});
+
+	watch('./src/images/**/*', function () {
+		gulp.start('images');
+	});
+
+	watch('./src/sass/base/fonts/**/*', function () {
+		gulp.start('fonts');
+	});
 });

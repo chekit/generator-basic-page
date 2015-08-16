@@ -1,21 +1,17 @@
 'use strict';
 
-var gulp = require('gulp'),
-	cache = require('gulp-cache'),
-	del = require('del');
+var gulp = require('gulp');
 
 require('require-dir')('./gulp');
 
-//Clean Dirs
-gulp.task('clean', function (done) {
-	del(['src/css', 'dist'], done);
-});
-
-//Clear Cache
-gulp.task('clear', function (done) {
-	return cache.clearAll(done);
-});
-
 gulp.task('default', ['clean', 'clear'], function () {
-	gulp.start('build');
+	gulp.start('fonts', 'css', 'html', 'images', 'scripts');
+});
+
+gulp.task('build', ['clean', 'clear'], function () {
+	gulp.start('fonts', 'sass', 'jade', 'scripts');
+});
+
+gulp.task('server', ['build'], function () {
+	gulp.start('browser-sync', 'watch');
 });
