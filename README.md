@@ -2,12 +2,11 @@
 ## Getting Started with Basic Page Generator
 To simply install this generator in your enviroment just follow the steps:
 
-1. one
-2. two
-3. three
-4. four
-
-> Sorry I'll describe the process soon...
+1. Clone repository to local project folder (your enviroment, i.e. `basic-page-genrator`)
+2. From the project directory, simply run `npm link`
+> That will install your project dependencies and symlink a global module to your local file
+3. Now you can just create a new folder for your own project and inside it run `yo basic-page`
+4. That's all. Now you can work on your project with all dependecies and gulp tasks configured
 
 ###'Allo! 'Allo!
 > For that generator you need to update your *npm* up to **2.3.0** or above because the 1.4.0 version causes issues with gulp-imagemin (for more info: [Upgrading npm on Windows])
