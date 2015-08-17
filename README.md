@@ -3,10 +3,7 @@
 To simply install this generator in your enviroment just follow the steps:
 
 1. Clone repository to local project folder (your enviroment, i.e. `basic-page-genrator`)
-2. From the project directory, simply run `npm link`
-
-> That will install your project dependencies and symlink a global module to your local file
-
+2. From the project directory, simply run `npm link`(*that will install your project dependencies and symlink a global module to your local file*)
 3. Now you can just create a new folder for your own project and inside it run `yo basic-page`
 4. That's all. Now you can work on your project with all dependecies and gulp tasks configured
 
