@@ -7,6 +7,8 @@ To simply install this generator in your enviroment just follow the steps:
 3. Now you can just create a new folder for your own project and inside it run `yo basic-page`
 4. That's all. Now you can work on your project with all dependecies and gulp tasks configured
 
+> Don't forget to make changes inside *gulp.build.js* file inside `html` task which generates `humans.txt`
+
 ###'Allo! 'Allo!
 > For that generator you need to update your *npm* up to **2.3.0** or above because the 1.4.0 version causes issues with gulp-imagemin (for more info: [Upgrading npm on Windows])
 
@@ -16,7 +18,7 @@ To simply install this generator in your enviroment just follow the steps:
 
 Trick question. It's not a thing. It's this guy:
 
-![](http://i.imgur.com/JHaAlBJ.png)
+![](http://yeoman.io/static/yeoman-02.61952591a7.png)
 
 Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
 
@@ -79,5 +81,3 @@ ___
 [Gulp]: http://gulpjs.com/
 [Bower]: http://bower.io
 [Getting Started Guide]: https://github.com/yeoman/yeoman/wiki/Getting-Started
-[humans.txt]: https://github.com/haydenbleasel/gulp-humans
-[gulp-changed]: https://www.npmjs.com/package/gulp-changed#readme
