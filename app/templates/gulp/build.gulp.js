@@ -56,11 +56,12 @@ gulp.task('jade', function () {
 			pretty: true
 		}))
 		.on('error', errorLog)
+		.pipe(gulp.dest('./src/'))
 		.pipe(wiredep({
 	    	directory: './src/bower_components/',
 			exclude: ['bower_components/modernizr/modernizr.js']
 	    }))
-	    .pipe(gulp.dest('./src/'))
+	   .pipe(gulp.dest('./src/'))
 		.pipe($.notify({
 			title: 'Jade',
 			message: 'Jade compile complete!'
