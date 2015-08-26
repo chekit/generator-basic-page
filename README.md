@@ -7,7 +7,12 @@ To simply install this generator in your enviroment just follow the steps:
 3. Now you can just create a new folder for your own project and inside it run `yo basic-page`
 4. That's all. Now you can work on your project with all dependecies and gulp tasks configured
 
-> Don't forget to make changes inside *gulp.build.js* file inside `html` task which generates `humans.txt`
+> Don't forget to make changes inside *gulp.build.js* in `html` task which generates `humans.txt`
+
+##Possible Issues
+Sometimes there is issue with installation of:
+1. *gulp-autoprefixer*, so you need to install it manually `npm install -D gulp-autoprefixer`
+2. *gulp-size*, so you need to install it manually `npm install -D gulp-size`
 
 ###'Allo! 'Allo!
 > For that generator you need to update your *npm* up to **2.3.0** or above because the 1.4.0 version causes issues with gulp-imagemin (for more info: [Upgrading npm on Windows])
