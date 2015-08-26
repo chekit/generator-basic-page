@@ -10,6 +10,7 @@ To simply install this generator in your enviroment just follow the steps:
 > Don't forget to make changes inside *gulp.build.js* in `html` task which generates `humans.txt`
 
 ##Possible Issues
+
 Sometimes there is issue with installation of:
 1. *gulp-autoprefixer*, so you need to install it manually `npm install -D gulp-autoprefixer`
 2. *gulp-size*, so you need to install it manually `npm install -D gulp-size`
