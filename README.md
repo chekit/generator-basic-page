@@ -25,7 +25,7 @@ Sometimes there is issue with installation of:
 
 Trick question. It's not a thing. It's this guy:
 
-![](http://yeoman.io/static/yeoman-02.61952591a7.png)
+![](http://yeoman.io/static/yeoman-02.dc21b7fc1d.png)
 
 Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
 
