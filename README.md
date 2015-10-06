@@ -79,6 +79,7 @@ MIT
 ####TODO
 - C помощью команды `yo <command>` создавать страницу *.jade в папке `jade/pages`
 - Сделать jQuery необязательным (реализовать запрос на установку)
+- Переписать `gulp-load-plugins` на `auto-reuqire` ([auto-require])
 
 ___
 
@@ -88,3 +89,4 @@ ___
 [Gulp]: http://gulpjs.com/
 [Bower]: http://bower.io
 [Getting Started Guide]: https://github.com/yeoman/yeoman/wiki/Getting-Started
+[auto-require]:https://www.npmjs.com/package/auto-require
