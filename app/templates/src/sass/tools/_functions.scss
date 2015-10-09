@@ -7,3 +7,13 @@
   @warn "Unknown `#{$key}` in $colors.";
   @return null;
 }
+
+//** Set min-width
+@function breakpoint($key) {
+	@if map-has-key($breakpoints, $key) {
+		@return map-get($breakpoints, $key);
+	}
+	
+	@warn "Unknown `#{$key}` in $breakpoints.";
+	@return null;
+}

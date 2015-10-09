@@ -131,7 +131,7 @@ gulp.task('html', ['jade'], function () {
 		    note: 'Built with love by Anthony Cherepov.'
 		}))
 	    .pipe($.htmlreplace({
-	        'css': 'styles.min.css',
+	        'css': 'css/styles.min.css',
 	        'js': 'js/app.min.js'
 	    }))
 		.pipe(assets)

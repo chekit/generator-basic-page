@@ -1,1 +1,12 @@
 //Project Variables
+$min-width: 320px;
+$max-width: 320px;
+
+$brealpoints: (
+	s: $min-width,
+	m: 480px,
+	l: 720px,
+	xl: 1024px
+);
+
+$colors: ();
