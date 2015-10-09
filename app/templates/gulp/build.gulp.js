@@ -4,6 +4,11 @@ var gulp = require('gulp'),
 	del = require('del'),
 	wiredep = require('wiredep').stream,
 	pngcrush = require('imagemin-pngcrush'),
+	// Browserify
+	browserify = require('browserify'),
+	source = require('vinyl-source-stream'),
+	buffer = require('vinyl-buffer'),
+	// /Browserify
 	$ = require('gulp-load-plugins')({
 		rename: {
 			'gulp-ruby-sass': 'sass',
@@ -170,11 +175,34 @@ gulp.task('scripts', function() {
 		.pipe($.jshint())
 		.on('error', errorLog)
 		.pipe($.jshint.reporter('jshint-stylish'))
-		.pipe($.stripDebug())
-		.pipe($.uglify())
-        .pipe($.rename({
-        	suffix: '.min'
-        }))
+		.pipe($.stripDebug());
+		// .pipe($.uglify())
+  //       .pipe($.rename({
+  //       	suffix: '.min'
+  //       }))
+		// .pipe($.sourcemaps.write('.'))
+		// .pipe(gulp.dest('./dist/js/'))
+		// .pipe($.notify({
+		// 	title: 'JS',
+		// 	message: 'JS compile complete!'
+		// }));
+});
+
+//Browserify
+gulp.task('browserify', ['scripts'], function () {
+	return browserify({
+			entries: './src/js/main.js',
+			debug: true
+		})
+		.bundle()
+		.pipe(source('app.js'))
+		.pipe(buffer())
+		.pipe($.sourcemaps.init())
+			.pipe(gulp.dest('./src/js/'))
+			.pipe($.uglify())
+	        .pipe($.rename({
+	        	suffix: '.min'
+	        }))
 		.pipe($.sourcemaps.write('.'))
 		.pipe(gulp.dest('./dist/js/'))
 		.pipe($.notify({
