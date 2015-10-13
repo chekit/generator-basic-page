@@ -5,7 +5,7 @@ var gulp = require('gulp');
 require('require-dir')('./gulp');
 
 gulp.task('default', ['clean', 'clear'], function () {
-	gulp.start('fonts', 'css', 'html', 'images', 'browserify', 'libs');
+	gulp.start('fonts', 'css', 'html', 'images', 'browserify');
 });
 
 gulp.task('build', ['clean', 'clear'], function () {
