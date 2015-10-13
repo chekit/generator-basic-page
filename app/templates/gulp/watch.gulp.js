@@ -13,7 +13,7 @@ gulp.task('watch', function () {
 	});
 
 	watch('src/js/**/*.js', function () {
-		gulp.start('scripts');
+		gulp.start('browserify');
 	});
 
 	watch('bower.json', function () {
