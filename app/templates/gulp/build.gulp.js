@@ -24,7 +24,7 @@ var paths = {
 	html: './src/*.html',
 	images: './src/images/**/*.{png,jpg,gif,svg,json,xml,ico}',
 	fonts: './src/sass/base/fonts/**/*',
-	js: ['src/js/*.js', '!src/js/_*.js']
+	js: ['src/js/modules/*.js', '!src/js/modules/_*.js'],
 };
 
 //Clean Dirs
