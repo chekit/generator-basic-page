@@ -8,7 +8,9 @@
 		"email": "chekitdnb@gmail.com",
 		"url": "https://github.com/chekit"
 	},
-	"dependencies": {},
+	"dependencies": {
+	  "jquery": "~1.11.0"
+	},
 	"devDependencies": {
 		"browser-sync": "^2.8.2",
     "browserify": "^11.1.0",
