@@ -80,6 +80,7 @@ MIT
 - C помощью команды `yo <command>` создавать страницу *.jade в папке `jade/pages`
 - Сделать jQuery необязательным (реализовать запрос на установку)
 - Переписать `gulp-load-plugins` на `auto-reuqire` ([auto-require])
+- Заменить reset.css на normalize с установкой актуальной версии через bower
 
 ___
 
