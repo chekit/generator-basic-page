@@ -81,6 +81,7 @@ MIT
 - Сделать jQuery необязательным (реализовать запрос на установку)
 - Переписать `gulp-load-plugins` на `auto-reuqire` ([auto-require])
 - Заменить reset.css на normalize с установкой актуальной версии через bower
+- Интересный модуль: https://www.npmjs.com/package/gulp-inject
 
 ___
 
