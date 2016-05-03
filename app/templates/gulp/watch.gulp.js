@@ -1,30 +1,17 @@
 'use strict';
 
-var gulp = require('gulp'),
-	watch = require('gulp-watch');
+const gulp = require('gulp');
+const	watch = require('gulp-watch');
 
-gulp.task('watch', function () {
-	watch('src/sass/**/*.scss', function () {
-		gulp.start('sass');
-	});
+let watchTask = function () {
+	watch('src/sass/**/*.scss', () => require('./sass.gulp')());
+	watch('src/jade/**/*.jade', () => require('./jade.gulp')());
+	watch('src/js/**/*.js', () => require('./browserify.gulp')());
+	watch('bower.json', () => require('./wiredep.gulp')());
+	watch('./src/images/**/*', () => require('./images.gulp')());
+	watch('./src/sass/base/fonts/**/*', () => require('./fonts.gulp')());
+};
 
-	watch('src/jade/**/*.jade', function () {
-		gulp.start('jade');
-	});
+gulp.task('watch', watchTask);
 
-	watch('src/js/**/*.js', function () {
-		gulp.start('browserify');
-	});
-
-	watch('bower.json', function () {
-		gulp.start('wiredep');
-	});
-
-	watch('./src/images/**/*', function () {
-		gulp.start('images');
-	});
-
-	watch('./src/sass/base/fonts/**/*', function () {
-		gulp.start('fonts');
-	});
-});
+module.exports = watchTask;

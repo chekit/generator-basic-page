@@ -82,6 +82,7 @@ MIT
 - Переписать `gulp-load-plugins` на `auto-reuqire` ([auto-require])
 - Заменить reset.css на normalize с установкой актуальной версии через bower
 - Интересный модуль: https://www.npmjs.com/package/gulp-inject
+- **Необходимо поправить логику тасков, чтобы вся работа была в ./dist/, а не и в ./dist/ и в ./src/**
 
 ___
 

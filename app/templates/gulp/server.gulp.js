@@ -1,16 +1,16 @@
 'use strict';
 
-var gulp = require('gulp'),
-	browserSync = require('browser-sync').create();
+const gulp = require('gulp');
+const browserSync = require('browser-sync').create();
 
-var files = [
+let files = [
 	'./src/*.html',
 	'./src/pages/*.html',
 	'./src/css/**/*.css',
 	'./src/js/**/*.js'
 ];
 
-gulp.task('browser-sync', function () {
+let syncTask = function () {
 	browserSync.init({
 		startPath: '/',
         server: {
@@ -18,4 +18,8 @@ gulp.task('browser-sync', function () {
         },
         files: files
     });
-});
+};
+
+gulp.task('browser-sync', syncTask);
+
+module.exports = syncTask;

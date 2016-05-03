@@ -5,13 +5,21 @@ var gulp = require('gulp');
 require('require-dir')('./gulp');
 
 gulp.task('default', ['clean', 'clear'], function () {
-	gulp.start('fonts', 'css', 'html', 'images', 'browserify');
+	require('./gulp/fonts.gulp')();
+	require('./gulp/images.gulp')();
+	require('./gulp/browserify.gulp')();
+	require('./gulp/html.gulp')();
+	require('./gulp/sass.gulp')();
 });
 
 gulp.task('build', ['clean', 'clear'], function () {
-	gulp.start('fonts', 'sass', 'jade', 'browserify');
+	require('./gulp/fonts.gulp')();
+	require('./gulp/jade.gulp')();
+	require('./gulp/browserify.gulp')();
+	require('./gulp/sass.gulp')();
 });
 
 gulp.task('server', ['build'], function () {
-	gulp.start('browser-sync', 'watch');
+	require('./gulp/server.gulp')();
+	require('./gulp/watch.gulp')();
 });
