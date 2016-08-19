@@ -1,4 +1,4 @@
-![](https://octodex.github.com/images/murakamicat.png)
+![](https://octodex.github.com/images/homercat.png)
 
 # Yeroman Basic Page Generator (`generator-basic-page`)
 ## Getting Started with Basic Page Generator
