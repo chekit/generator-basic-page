@@ -1,3 +1,5 @@
+![](https://octodex.github.com/images/murakamicat.png)
+
 # Yeroman Basic Page Generator (`generator-basic-page`)
 ## Getting Started with Basic Page Generator
 To simply install this generator in your enviroment just follow the steps:
@@ -24,8 +26,6 @@ Sometimes there is issue with installation of:
 ### What is Yeoman?
 
 Trick question. It's not a thing. It's this guy:
-
-![](http://yeoman.io/static/yeoman-02.dc21b7fc1d.png)
 
 Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
 
