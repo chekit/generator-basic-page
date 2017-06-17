@@ -1,0 +1,25 @@
+include ../config
+//- include ../components/header
+
+doctype
+html.no-js(lang="ru")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title!= pageTitle
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='css/styles.min.css')
+  body
+    .wrapper
+      <!--[if lt IE 8]>
+      p.browsehappy
+        | You are using an <strong>outdated</strong> browser.
+        | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        | to improve your experience.
+      <![endif]-->
+
+      block content
+        //- Main Content Goes Here
+    block scripts
+    //- Main Scripts Goes Here

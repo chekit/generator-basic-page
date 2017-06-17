@@ -1,0 +1,18 @@
+{
+    "paths": {
+        "src":   "./src/",
+        "build": "./dist/",
+
+        "sass":  "./src/sass/",
+        "css":   "./dist/css/",
+
+        "es6": " ./src/js/",
+        "es5": " ./dist/js/",
+
+        "pug":   "./src/pug/",
+        "html":  "./dist/",
+
+        "img_src": "./src/images/**/*.{png,jpg,svg,ico}",
+        "img_dist": "./dist/images/"
+    }
+}
