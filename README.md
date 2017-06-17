@@ -11,7 +11,10 @@
 - Для HTML используется препроцессор **[Pug](https://pugjs.org/api/getting-started.html)** (*Jade*)
 - Для CSS используется препроцессор **[Sass](https://sass-scss.ru/)** (*Scss*)
 - JS транспилируется с помощью **[Babel](https://babeljs.io/)** и **[Browserify](http://browserify.org/)** из ES2015 в ES5.
-- Подключена библиотека **Modernizr** (необходимые проверки, модули настраиваются в файле `modernizr-config.json`. Для выбора настроек: https://modernizr.com/download?setclasses)
+- Подключена библиотека **Modernizr** (необходимые проверки, модули настраиваются в файле `modernizr-config.json`)
+
+> Для выбора настроек: https://modernizr.com/download?setclasses
+
 - Подключен **[normalize.css](https://necolas.github.io/normalize.css/)** (его Scss версия)
 - Проверка кода осущетсвляется с помощью **[EsLint](http://eslint.org/)** (настройки в корне проекта, файл `.eslintrc`)
 
