@@ -1,4 +1,4 @@
-![](https://octodex.github.com/images/homercat.png)
+![](https://fontmeme.com/permalink/170617/1dcc71d7d21a1883084b89138a19b268.png)
 
 # Версия 2.0.0
 
