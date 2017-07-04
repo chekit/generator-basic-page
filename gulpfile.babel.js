@@ -8,6 +8,6 @@ global.config = require('./project.paths.json');
 
 requireDir('./gulp');
 
-gulp.task('default', sequence(['clean', 'clear'], 'sass', 'pug', 'images', 'scripts'));
+gulp.task('default', sequence(['clean', 'clear'], 'sass', 'pug', 'images', 'modernizr', 'scripts'));
 
 gulp.task('dev', sequence('default', 'server', 'watch'));
