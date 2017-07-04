@@ -5,8 +5,10 @@
     "browser": true,
     "node" : true
   },
-  "ecmaFeatures": {
-    "modules": true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true
+    }
   },
   "globals": {
     "module": true,
