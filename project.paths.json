@@ -6,8 +6,8 @@
         "sass":  "./src/sass/",
         "css":   "./dist/css/",
 
-        "es6": " ./src/js/",
-        "es5": " ./dist/js/",
+        "es6": "./src/js/",
+        "es5": "./dist/js/",
 
         "pug":   "./src/pug/",
         "html":  "./dist/",
