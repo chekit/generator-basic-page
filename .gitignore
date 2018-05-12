@@ -179,6 +179,5 @@ fabric.properties
 # Other
 debug.log
 undefined/
-
-### Compile ###
 dist/
+package-lock.json
