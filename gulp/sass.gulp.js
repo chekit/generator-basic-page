@@ -39,5 +39,5 @@ gulp.task('sass', () => {
 		.pipe(debug({
 			title: '* SASS ==> Done:'
 		}))
-		.pipe(gulp.dest(`${config.paths.css}`));
+		.pipe(gulp.dest(config.paths.css));
 });

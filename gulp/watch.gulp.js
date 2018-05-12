@@ -28,7 +28,7 @@ gulp.task('watch', function () {
 		});
 	}).on('ready', localhost.reload);
 
-	watch(`${config.paths.es6}/**/*.js`, function () {
+	watch(`${config.paths.ts}/**/*.ts`, function () {
 		return sequence('scripts')(function (err) {
 			if (err) console.log(err)
 		});
