@@ -68,5 +68,6 @@
     "page template",
     "page boilerplate",
     "html boilerplate"
-  ]
+  ],
+  "private": true
 }
