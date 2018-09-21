@@ -54,5 +54,19 @@
   "dependencies": {
     "modernizr": "^3.6.0",
     "normalize-scss": "^7.0.0"
-  }
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "pug",
+    "jade",
+    "scss",
+    "BEM",
+    "ts",
+    "typescript",
+    "html5",
+    "page template",
+    "page boilerplate",
+    "html boilerplate"
+  ]
 }
