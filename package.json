@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/chekit/generator-basic-page.git"
   },
-  "author": "Anton Cherepov",
+  "author": {
+    "name": "Anton Cherepov",
+    "email": "chekitdnb@gmail.com",
+    "url": "http://chekit.github.io/"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chekit/generator-basic-page/issues"
