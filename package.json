@@ -34,7 +34,7 @@
     "gulp-cache": "^0.4.6",
     "gulp-csso": "^3.0.0",
     "gulp-debug": "^3.1.0",
-    "gulp-eslint": "^4.0.0",
+    "gulp-eslint": "^6.0.0",
     "gulp-imagemin": "^3.3.0",
     "gulp-notify": "^3.0.0",
     "gulp-pug": "^3.3.0",
