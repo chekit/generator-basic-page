@@ -47,7 +47,7 @@
     "gulp-watch": "^5.0.1",
     "require-dir": "^1.2.0",
     "tsify": "^4.0.0",
-    "typescript": "^2.8.3",
+    "typescript": "^3.6.4",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
