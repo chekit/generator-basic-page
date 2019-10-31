@@ -49,7 +49,7 @@
     "tsify": "^4.0.0",
     "typescript": "^3.6.4",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "modernizr": "^3.6.0",
