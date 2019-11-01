@@ -45,7 +45,7 @@
     "gulp-typescript": "^4.0.2",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
-    "require-dir": "^0.3.2",
+    "require-dir": "^1.2.0",
     "tsify": "^4.0.0",
     "typescript": "^2.8.3",
     "vinyl-buffer": "^1.0.0",
