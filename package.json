@@ -29,7 +29,7 @@
     "browserify": "^14.4.0",
     "child_process": "^1.0.2",
     "del": "^5.1.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cache": "^0.4.6",
     "gulp-csso": "^3.0.0",
