@@ -28,7 +28,7 @@
     "browser-sync": "^2.18.12",
     "browserify": "^14.4.0",
     "child_process": "^1.0.2",
-    "del": "^3.0.0",
+    "del": "^5.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cache": "^0.4.6",
