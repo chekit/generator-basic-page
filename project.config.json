@@ -1,19 +1,20 @@
 {
     "paths": {
-        "src":   "./src/",
-        "build": "./dist/",
-
-        "sass":  "./src/sass/",
-        "css":   "./dist/css/",
-
-        "ts": "./src/ts/",
-        "libs": "./src/libs/",
-        "scripts": "./dist/js/",
-
-        "pug":   "./src/pug/",
-        "html":  "./dist/",
-
-        "img_src": "./src/images/**/*.{png,jpg,svg,ico}",
-        "img_dist": "./dist/images/"
+        "src": {
+            "base": "./src/",
+            "sass": "./src/sass/styles.scss",
+            "ts": "./src/ts/index.ts",
+            "libs": "./src/libs/",
+            "pug": "./src/index.pug",
+            "img": "./src/images/**/*.{png,jpg,svg,ico}"
+        },
+        "build": {
+            "base": "./dist/",
+            "css": "./dist/css/",
+            "js": "./dist/js/",
+            "libs": "./dist/js/libs/",
+            "html": "./dist/",
+            "img": "./dist/images/"
+        }
     }
 }

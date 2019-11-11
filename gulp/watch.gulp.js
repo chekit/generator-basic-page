@@ -1,37 +1,19 @@
-'use strict';
+import gulp, { watch } from 'gulp';
 
-import gulp        from 'gulp';
-import watch       from 'gulp-watch';
-import sequence    from 'gulp-sequence';
-import browserSync from 'browser-sync';
+let files = [
+	,
+	,
+	,
+	
+];
 
-let localhost = browserSync.create();
+gulp.task('watch', () => {
+	watch(`${pathsSRC.base}**/*.scss`, gulp.series('sass'));
+	watch(`${pathsSRC.base}**/*.pug`, gulp.series('pug'));
+	watch(`${pathsSRC.img}`, gulp.series('images'));
+	watch(`${pathsSRC.base}**/*.ts`, gulp.series('scripts:dev'));
 
-gulp.task('watch', function () {
-  	watch(`${config.paths.src}sass/**/*.scss`, function () {
-		setTimeout(function () {
-			return sequence('sass')(function (err) {
-				if (err) console.log(err)
-			});
-		}, 300);
-	});
-
-	watch(`${config.paths.src}**/*.pug`, function () {
-		return sequence('pug')(function (err) {
-			if (err) console.log(err)
-		});
-	}).on('ready', localhost.reload);
-
-	watch(`${config.paths.img_src}`, function (cb) {
-		return sequence('images')(function (err) {
-			if (err) console.log(err)
-		});
-	}).on('ready', localhost.reload);
-
-	watch(`${config.paths.ts}/**/*.ts`, function () {
-		return sequence('scripts')(function (err) {
-			if (err) console.log(err)
-		});
-	}).on('ready', localhost.reload);
+	watch(`${pathsBUILD.base}**/*.html`).on('change', gulp.series('reload'));
+	watch(`${pathsBUILD.img}**/*.{jpg,png,svg,ico}`).on('change', gulp.series('reload'));
+	watch(`${pathsBUILD.js}**/*.js`).on('change', gulp.series('reload'));
 });
-

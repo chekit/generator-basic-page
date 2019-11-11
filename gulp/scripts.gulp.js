@@ -1,30 +1,20 @@
-'use strict';
-
-import gulp from 'gulp';
-
-import ts from 'gulp-typescript';
-import tsify from 'tsify';
-
 import babelify from 'babelify';
 import browserify from 'browserify';
+import gulp from 'gulp';
+import debug from 'gulp-debug';
+import gulpif from 'gulp-if';
+import rename from 'gulp-rename';
+import sourcemaps from 'gulp-sourcemaps';
+import uglify from 'gulp-uglify';
+import tsify from 'tsify';
 import buffer from 'vinyl-buffer';
 import source from 'vinyl-source-stream';
 
-import uglify from 'gulp-uglify';
-import rename from "gulp-rename";
-
-import debug from 'gulp-debug';
-
-gulp.task('libs:copy', () => {
-	return gulp.src(config.paths.libs)
-		.pipe(gulp.dest(config.paths.scripts));
-})
-
-gulp.task('scripts', () => {
+function buildScripts(addMap = false) {
 	const bundler = browserify({
 		basedir: '.',
 		debug: true,
-		entries: [`${config.paths.ts}/index.ts`],
+		entries: [`${pathsSRC.ts}`],
 		cache: {},
 		packageCache: {}
 	});
@@ -37,14 +27,22 @@ gulp.task('scripts', () => {
 		.on('error', err => console.error(err))
 		.pipe(source('scripts.js'))
 		.pipe(buffer())
-		// .pipe(sourcemaps.init({loadMaps: true}))
+		.pipe(gulpif(addMap, sourcemaps.init({ loadMaps: true })))
 		.pipe(uglify())
 		.pipe(rename({
 			suffix: '.min'
 		}))
-		// .pipe(sourcemaps.write('./'))
+		.pipe(gulpif(addMap, sourcemaps.write('./')))
 		.pipe(debug({
 			title: '* TS ==> Done:'
 		}))
-		.pipe(gulp.dest(config.paths.scripts));
-});
+		.pipe(gulp.dest(pathsBUILD.js))
+}
+
+gulp.task('libs:copy', () => {
+	return gulp.src(pathsSRC.libs)
+		.pipe(gulp.dest(pathsBUILD.libs));
+})
+
+gulp.task('scripts', () => buildScripts());
+gulp.task('scripts:dev', () => buildScripts(true));
