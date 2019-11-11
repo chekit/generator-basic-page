@@ -2,7 +2,7 @@
 
 Проект представляет собой предопределённую базовую структуру со всеми необходимыми файлами и настроенными процессами для создания web-проекта.
 
-# Версия 2.1.0
+# Версия 2.1.1
 
 - В новой редакции JavaScript заменён на TypeScript.
 
@@ -10,20 +10,17 @@
 
 - Для HTML используется препроцессор **[Pug](https://pugjs.org/api/getting-started.html)** (*Jade*)
 - Для CSS используется препроцессор **[Sass](https://sass-scss.ru/)** (*Scss*)
-- ~~JS транспилируется с помощью **[Babel](https://babeljs.io/)** и **[Browserify](http://browserify.org/)** из ES2015 в ES5~~.
 - Подключена библиотека **Modernizr** (необходимые проверки, модули настраиваются в файле `modernizr-config.json`)
-
 > Для выбора настроек: https://modernizr.com/download?setclasses
 
-- Подключен **[normalize.css](https://necolas.github.io/normalize.css/)** (его Scss версия)
-- ~~Проверка кода осущетсвляется с помощью **[EsLint](http://eslint.org/)** (настройки в корне проекта, файл `.eslintrc`)~~
+- Подключен **[normalize.css](https://necolas.github.io/normalize.css/)** (его SCSS версия)
 
 > Настройка путей для gulp тасков в файле `project.config.json`
-
 > Gulp таски вынесены в отдельный каталог `./gulp/`. В основном `gulpfile.babel.js` настраиваются только основные таски для работы с проектом
 
 ## TODO
 
-> 2.1.1
+> 3.0.0
 
-- Добавить глобальные настройки для создания sourcemaps в dev режиме
+- Перейти на WebPack
+- Добавить возможность создания страниц и scss файлов через консоль
