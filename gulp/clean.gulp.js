@@ -1,11 +1,8 @@
-'use strict';
-
-import gulp  from 'gulp';
-import del   from 'del';
+import del from 'del';
+import gulp from 'gulp';
 import cache from 'gulp-cache';
 
-//Clean Dir
-gulp.task('clean', () => del([`${config.paths.build}`]));
-
-//Clear Cache
+gulp.task('del', () => del([`${pathsBUILD.base}`]));
 gulp.task('clear', done => cache.clearAll(done));
+
+gulp.task('clean', gulp.series('del', 'clear'));

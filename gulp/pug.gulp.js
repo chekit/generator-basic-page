@@ -1,18 +1,15 @@
-'use strict';
-
-import gulp   from 'gulp';
-import pug    from 'gulp-pug';
-import debug  from 'gulp-debug';
+import gulp from 'gulp';
 import notify from 'gulp-notify';
+import pug from 'gulp-pug';
 
 gulp.task('pug', () => {
-    return gulp.src(`${config.paths.src}*.pug`)
+    return gulp.src(`${pathsSRC.pug}`)
         .pipe(pug({
-           pretty: true
+            pretty: true
         }))
         .on('error', notify.onError({
+            title: "Error in Jade Partials",
             message: "Error: <%= error.message %>",
-            title: "Error in Jade Partials"
         }))
-        .pipe(gulp.dest(`${config.paths.html}`));
+        .pipe(gulp.dest(`${pathsBUILD.html}`));
 });
