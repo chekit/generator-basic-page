@@ -34,7 +34,7 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-cache": "^0.4.6",
     "gulp-csso": "^3.0.0",
-    "gulp-debug": "^3.1.0",
+    "gulp-debug": "^4.0.0",
     "gulp-eslint": "^6.0.0",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^3.3.0",
