@@ -6,7 +6,7 @@ This project is a predefined base structure with all files and configured tasks 
 
 ## Technologies
 
-- **[Pug](https://pugjs.org/api/getting-started.html)** (Formerly *Jade*) is using for creating HTML
+- **[Pug](https://pugjs.org/api/getting-started.html)** (formerly *Jade*) is using for creating HTML
 - **[Sass](https://sass-scss.ru/)** (*Scss*) is using fro creating CSS
 - **[TypeScript](http://www.typescriptlang.org/index.html)** is using for transpaling to plain JavaScript.
 - For supporting some rare or out of date features you can configure **Modernizr** (all checks, modules are configures in `modernizr-config.json`)
@@ -15,6 +15,7 @@ This project is a predefined base structure with all files and configured tasks 
 - **[normalize.css](https://necolas.github.io/normalize.css/)** (its SCSS version) is using for resetting / normalizing browsers stylings to look everything the same
 
 > Paths for Gulp tasks are configured at `project.config.json`
+
 > All Gulp tasks are moved to `./gulp.`. The main `gulpfile.babel.js` is holding only main tasks to working on project
 
 ## TODO
