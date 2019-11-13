@@ -24,3 +24,5 @@ This project is a predefined base structure with all files and configured tasks 
 - Migrate to WebPack
 - Add feature to add new pug pages and scss files via Terminal
 - Convert project to GBP-CLI
+
+[Russian version](./README.RU.md)
