@@ -1,25 +1,26 @@
 ![](./logo.jpg)
 
-Проект представляет собой предопределённую базовую структуру со всеми необходимыми файлами и настроенными процессами для создания web-проекта.
+This project is a predefined base structure with all files and configured tasks for creating a web site/page.
 
-# Версия 2.1.1
+# Version 2.1.1
 
-## Технологии
+## Technologies
 
-- Для HTML используется препроцессор **[Pug](https://pugjs.org/api/getting-started.html)** (*Jade*)
-- Для CSS используется препроцессор **[Sass](https://sass-scss.ru/)** (*Scss*)
-- Для транспиляции в JavaScript используется **[TypeScript](http://www.typescriptlang.org/index.html)**.
-- Подключена библиотека **Modernizr** (необходимые проверки, модули настраиваются в файле `modernizr-config.json`)
-> Для выбора настроек: https://modernizr.com/download?setclasses
+- **[Pug](https://pugjs.org/api/getting-started.html)** (Formerly *Jade*) is using for creating HTML
+- **[Sass](https://sass-scss.ru/)** (*Scss*) is using fro creating CSS
+- **[TypeScript](http://www.typescriptlang.org/index.html)** is using for transpaling to plain JavaScript.
+- For supporting some rare or out of date features you can configure **Modernizr** (all checks, modules are configures in `modernizr-config.json`)
+> All settings could be found there: https://modernizr.com/download?setclasses
 
-- Подключен **[normalize.css](https://necolas.github.io/normalize.css/)** (его SCSS версия)
+- **[normalize.css](https://necolas.github.io/normalize.css/)** (its SCSS version) is using for resetting / normalizing browsers stylings to look everything the same
 
-> Настройка путей для gulp тасков в файле `project.config.json`
-> Gulp таски вынесены в отдельный каталог `./gulp/`. В основном `gulpfile.babel.js` настраиваются только основные таски для работы с проектом
+> Paths for Gulp tasks are configured at `project.config.json`
+> All Gulp tasks are moved to `./gulp.`. The main `gulpfile.babel.js` is holding only main tasks to working on project
 
 ## TODO
 
 > 3.0.0
 
-- Перейти на WebPack
-- Добавить возможность создания страниц и scss файлов через консоль
+- Migrate to WebPack
+- Add feature to add new pug pages and scss files via Terminal
+- Convert project to GBP-CLI
