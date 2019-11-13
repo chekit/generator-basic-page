@@ -11,7 +11,7 @@ gulp.task('server', () => {
 });
 
 //Browser Reload Function
-gulp.task('reload', function (done) {
+gulp.task('reload', (done) => {
 	browserSync.reload();
 	done();
 });
