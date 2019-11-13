@@ -4,12 +4,11 @@
 
 # Версия 2.1.1
 
-- В новой редакции JavaScript заменён на TypeScript.
-
 ## Технологии
 
 - Для HTML используется препроцессор **[Pug](https://pugjs.org/api/getting-started.html)** (*Jade*)
 - Для CSS используется препроцессор **[Sass](https://sass-scss.ru/)** (*Scss*)
+- Для транспиляции в JavaScript используется **[TypeScript](http://www.typescriptlang.org/index.html)**.
 - Подключена библиотека **Modernizr** (необходимые проверки, модули настраиваются в файле `modernizr-config.json`)
 > Для выбора настроек: https://modernizr.com/download?setclasses
 
