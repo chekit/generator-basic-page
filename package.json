@@ -27,7 +27,7 @@
     "babel-preset-env": "^1.7.0",
     "babelify": "^10.0.0",
     "browser-sync": "^2.18.12",
-    "browserify": "^16.5.0",
+    "browserify": "^17.0.0",
     "child_process": "^1.0.2",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
