@@ -25,7 +25,7 @@
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-preset-env": "^1.7.0",
-    "babelify": "^8.0.0",
+    "babelify": "^10.0.0",
     "browser-sync": "^2.18.12",
     "browserify": "^16.5.0",
     "child_process": "^1.0.2",
