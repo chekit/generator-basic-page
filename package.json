@@ -1,12 +1,13 @@
 {
   "name": "generator-basic-page",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Basic HTML page structure. Uses preprocessor Scss for CSS, template engine Pug for HTML and TypeScript for coding scripts. Everything is bundling up with Gulp.",
   "main": "src/index.pug",
   "scripts": {
     "start": "gulp dev",
     "build": "gulp",
-    "clean": "gulp clean"
+    "clean": "gulp clean",
+    "preinstall": "npx only-allow pnpm"
   },
   "repository": {
     "type": "git",
