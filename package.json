@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "modernizr": "^3.6.0",
-    "normalize-scss": "^7.0.0"
+    "normalize-scss": "^8.0.0"
   },
   "keywords": [
     "template",
