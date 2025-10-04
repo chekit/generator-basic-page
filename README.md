@@ -15,8 +15,9 @@ This project is a predefined base structure with all files and configured tasks 
 
 - **[normalize.css](https://necolas.github.io/normalize.css/)** (its SCSS version) is using for resetting / normalizing browsers stylings to look everything the same
 
-- **[Gulp](https://gulpjs.com/)** is using to manage build / create/ serve tasks
-  > Paths for Gulp tasks are configured at `project.config.json`. All Gulp tasks are moved to `./gulp.`. The main `gulpfile.babel.js` is holding only main tasks to working on project
+~~- **[Gulp](https://gulpjs.com/)** is using to manage build / create/ serve tasks~~
+
+> ~~Paths for Gulp tasks are configured at `project.config.json`. All Gulp tasks are moved to `./gulp.`. The main `gulpfile.babel.js` is holding only main tasks to working on project~~
 
 ## TODO
 
