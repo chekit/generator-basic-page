@@ -1,4 +1,5 @@
 import pug from '@vituum/vite-plugin-pug';
+import { join } from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -13,5 +14,13 @@ export default defineConfig({
   },
   preview: {
     port: 3001,
+  },
+  resolve: {
+    alias: [
+      {
+        find: /~(.+)/,
+        replacement: join(process.cwd(), 'node_modules/$1'),
+      },
+    ],
   },
 });

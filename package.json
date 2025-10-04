@@ -25,17 +25,17 @@
   },
   "homepage": "https://github.com/chekit/generator-basic-page#readme",
   "devDependencies": {
+    "@types/node": "^24.6.2",
     "@vituum/vite-plugin-pug": "^1.1.0",
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "prettier": "^3.6.2",
-    "sass-embedded": "^1.92.1",
+    "sass-embedded": "^1.93.2",
     "typescript": "~5.8.3",
-    "typescript-eslint": "^8.44.0",
-    "vite": "^7.1.6"
+    "typescript-eslint": "^8.45.0",
+    "vite": "^7.1.8"
   },
   "dependencies": {
-    "modernizr": "^3.6.0",
-    "normalize-scss": "^8.0.0"
+    "modernizr": "^3.13.1"
   },
   "keywords": [
     "template",
