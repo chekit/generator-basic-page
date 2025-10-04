@@ -8,7 +8,7 @@
 // library. @see https://github.com/jptaranto/typey
 
 @function normalize-rhythm($value, $relative-to: $base-font-size, $unit: $base-unit) {
-  @if unit($value) !=px {
+  @if math.unit($value) !=px {
     @error "The normalize vertical-rhythm module only supports px inputs. The typey library is better.";
   }
 
@@ -27,7 +27,7 @@
 }
 
 @mixin normalize-font-size($value, $relative-to: $base-font-size) {
-  @if unit($value) !='px' {
+  @if math.unit($value) !='px' {
     @error "normalize-font-size() only supports px inputs. The typey library is better.";
   }
 

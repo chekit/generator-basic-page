@@ -15,7 +15,9 @@ This project is a predefined base structure with all files and configured tasks 
 
 - **[normalize.css](https://github.com/JohnAlbin/normalize-scss)** - project uses fork-version of normalize-css library: https://github.com/JohnAlbin/normalize-scss/tree/main/fork-version
 
-- **[Vite](https://vite.dev/)** - for manage dev / build / preview tasks
+- **[Vite](https://vite.dev/)** - for manage [dev](https://vite.dev/guide/cli.html#dev-server) / [build](https://vite.dev/guide/cli.html#build) / [preview](https://vite.dev/guide/cli.html#vite-preview) tasks
+
+- **[PNPM](https://pnpm.io)** - project uses pnpm as one and only package manager
 
 ## TODO
 
