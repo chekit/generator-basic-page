@@ -1,13 +1,8 @@
 /*** Normalize CSS */
-// TODO: fix
-// @use 'normalize/variables';
-// @use 'normalize/vertical-rhythm';
-// @use 'normalize/normalize-mixin';
+// TODO: add
 
 /*** Project Styles ***/
 @use 'tools';
 @use 'base';
 @use 'layout';
 @use 'modules';
-
-// @include normalize();

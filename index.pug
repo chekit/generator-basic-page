@@ -2,8 +2,7 @@ extends  ./src/pug/base/template
 
 //- This block will be injected to basic tmpl
 block content
-
+  //- "include" your blocks here: https://pugjs.org/language/includes.html
 //- This block will be injected to basic tmpl
 block scripts
-  //- script(src="js/libs/<lib-name>.js", defer)
   script(type="module" src="src/ts/index.ts")
