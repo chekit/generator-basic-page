@@ -1,12 +1,14 @@
 {
   "name": "generator-basic-page",
-  "version": "2.1.0",
   "description": "Basic HTML page structure. Uses preprocessor Scss for CSS, template engine Pug for HTML and TypeScript for coding scripts. Everything is bundling up with Gulp.",
-  "main": "src/index.pug",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
   "scripts": {
-    "start": "gulp dev",
-    "build": "gulp",
-    "clean": "gulp clean"
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -23,38 +25,17 @@
   },
   "homepage": "https://github.com/chekit/generator-basic-page#readme",
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-preset-env": "^1.7.0",
-    "babelify": "^10.0.0",
-    "browser-sync": "^3.0.4",
-    "browserify": "^17.0.0",
-    "child_process": "^1.0.2",
-    "del": "^8.0.1",
-    "gulp": "^5.0.1",
-    "gulp-autoprefixer": "^10.0.0",
-    "gulp-cache": "^1.1.3",
-    "gulp-csso": "^4.0.1",
-    "gulp-debug": "^5.0.1",
-    "gulp-eslint": "^6.0.0",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^9.1.0",
-    "gulp-notify": "^5.0.0",
-    "gulp-pug": "^5.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^6.0.1",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-typescript": "^5.0.1",
-    "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^5.0.1",
-    "require-dir": "^1.2.0",
-    "tsify": "^5.0.2",
-    "typescript": "^5.9.2",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^2.0.0"
+    "@types/node": "^24.6.2",
+    "@vituum/vite-plugin-pug": "^1.1.0",
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2",
+    "sass-embedded": "^1.93.2",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.45.0",
+    "vite": "^7.1.8"
   },
   "dependencies": {
-    "modernizr": "^3.6.0",
-    "normalize-scss": "^8.0.0"
+    "modernizr": "^3.13.1"
   },
   "keywords": [
     "template",
@@ -70,6 +51,5 @@
     "html template",
     "page boilerplate",
     "html boilerplate"
-  ],
-  "private": true
+  ]
 }
