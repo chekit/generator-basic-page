@@ -13,11 +13,11 @@ importers:
         version: 3.13.1
     devDependencies:
       '@types/node':
-        specifier: ^24.6.2
-        version: 24.6.2
+        specifier: ^24.7.0
+        version: 24.7.0
       '@vituum/vite-plugin-pug':
         specifier: ^1.1.0
-        version: 1.1.0(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2)
+        version: 1.1.0(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2)
       eslint:
         specifier: ^9.37.0
         version: 9.37.0
@@ -35,7 +35,7 @@ importers:
         version: 8.45.0(eslint@9.37.0)(typescript@5.9.3)
       vite:
         specifier: ^7.1.9
-        version: 7.1.9(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2)
+        version: 7.1.9(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2)
 
 packages:
 
@@ -504,8 +504,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@24.6.2':
-    resolution: {integrity: sha512-d2L25Y4j+W3ZlNAeMKcy7yDsK425ibcAOO2t7aPTz6gNMH0z2GThtwENCDc0d/Pw9wgyRqE5Px1wkV7naz8ang==}
+  '@types/node@24.7.0':
+    resolution: {integrity: sha512-IbKooQVqUBrlzWTi79E8Fw78l8k1RNtlDDNWsFZs7XonuQSJ8oNYfEeclhprUldXISRMLzBpILuKgPlIxm+/Yw==}
 
   '@typescript-eslint/eslint-plugin@8.45.0':
     resolution: {integrity: sha512-HC3y9CVuevvWCl/oyZuI47dOeDF9ztdMEfMH8/DW/Mhwa9cCLnK1oD7JoTVGW/u7kFzNZUKUoyJEqkaJh5y3Wg==}
@@ -1424,8 +1424,8 @@ packages:
   uc.micro@1.0.6:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
 
-  undici-types@7.13.0:
-    resolution: {integrity: sha512-Ov2Rr9Sx+fRgagJ5AX0qvItZG/JKKoBRAVITs1zk7IqZGTJUwgUr7qoYBpWwakpWilTZFM98rG/AFRocu10iIQ==}
+  undici-types@7.14.0:
+    resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -1857,9 +1857,9 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@24.6.2':
+  '@types/node@24.7.0':
     dependencies:
-      undici-types: 7.13.0
+      undici-types: 7.14.0
 
   '@typescript-eslint/eslint-plugin@8.45.0(@typescript-eslint/parser@8.45.0(eslint@9.37.0)(typescript@5.9.3))(eslint@9.37.0)(typescript@5.9.3)':
     dependencies:
@@ -1954,12 +1954,12 @@ snapshots:
       '@typescript-eslint/types': 8.45.0
       eslint-visitor-keys: 4.2.1
 
-  '@vituum/vite-plugin-pug@1.1.0(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2)':
+  '@vituum/vite-plugin-pug@1.1.0(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2)':
     dependencies:
       fast-glob: 3.3.3
       lodash: 4.17.21
       pug: 3.0.3
-      vituum: 1.2.0(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2)
+      vituum: 1.2.0(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -2837,7 +2837,7 @@ snapshots:
 
   uc.micro@1.0.6: {}
 
-  undici-types@7.13.0: {}
+  undici-types@7.14.0: {}
 
   uri-js@4.4.1:
     dependencies:
@@ -2845,7 +2845,7 @@ snapshots:
 
   varint@6.0.0: {}
 
-  vite@6.3.6(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2):
+  vite@6.3.6(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2):
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2854,12 +2854,12 @@ snapshots:
       rollup: 4.52.4
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.6.2
+      '@types/node': 24.7.0
       fsevents: 2.3.3
       sass: 1.93.2
       sass-embedded: 1.93.2
 
-  vite@7.1.9(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2):
+  vite@7.1.9(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2):
     dependencies:
       esbuild: 0.25.10
       fdir: 6.5.0(picomatch@4.0.3)
@@ -2868,18 +2868,18 @@ snapshots:
       rollup: 4.52.4
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.6.2
+      '@types/node': 24.7.0
       fsevents: 2.3.3
       sass: 1.93.2
       sass-embedded: 1.93.2
 
-  vituum@1.2.0(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2):
+  vituum@1.2.0(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2):
     dependencies:
       chokidar: 3.6.0
       fast-glob: 3.3.3
       lodash: 4.17.21
       minimatch: 10.0.3
-      vite: 6.3.6(@types/node@24.6.2)(sass-embedded@1.93.2)(sass@1.93.2)
+      vite: 6.3.6(@types/node@24.7.0)(sass-embedded@1.93.2)(sass@1.93.2)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
