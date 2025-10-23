@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/chekit/generator-basic-page#readme",
   "devDependencies": {
-    "@types/node": "^24.8.1",
+    "@types/node": "^24.9.1",
     "@vituum/vite-plugin-pug": "^1.1.0",
     "eslint": "^9.38.0",
     "prettier": "^3.6.2",
