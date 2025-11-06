@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/node": "^24.10.0",
     "@vituum/vite-plugin-pug": "^1.1.0",
-    "eslint": "^9.38.0",
+    "eslint": "^9.39.1",
     "prettier": "^3.6.2",
     "sass-embedded": "^1.93.2",
     "typescript": "~5.9.3",
