@@ -28,7 +28,7 @@
     "@types/node": "^25.5.2",
     "@vituum/vite-plugin-pug": "^2.0.1",
     "eslint": "^10.2.0",
-    "prettier": "^3.8.1",
+    "prettier": "^3.8.2",
     "sass-embedded": "^1.99.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.0",
