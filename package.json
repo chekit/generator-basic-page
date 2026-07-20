@@ -32,7 +32,7 @@
     "sass-embedded": "^1.100.0",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.62.1",
-    "vite": "^8.0.16"
+    "vite": "^8.1.5"
   },
   "dependencies": {
     "modernizr": "^3.13.1"
