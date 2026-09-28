@@ -13,11 +13,11 @@ importers:
         version: 3.13.1
     devDependencies:
       '@types/node':
-        specifier: ^26.4.0
-        version: 26.4.0
+        specifier: ^26.6.2
+        version: 26.6.2
       '@vituum/vite-plugin-pug':
         specifier: ^2.0.1
-        version: 2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))
+        version: 2.0.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))
       eslint:
         specifier: ^10.9.1
         version: 10.9.1(supports-color@8.1.1)
@@ -35,7 +35,7 @@ importers:
         version: 8.70.1(eslint@10.9.1(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)
       vite:
         specifier: ^8.3.1
-        version: 8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+        version: 8.3.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
 
 packages:
 
@@ -458,8 +458,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@26.4.0':
-    resolution: {integrity: sha512-faiGnoIrLH/V8cibOMEAZ8pMw6oXqSukl29ra4mN8GdaB2ZewzeaLj+INpV5N+Z1eKWzY+IzaIZH2EIR6YZRNQ==}
+  '@types/node@26.6.2':
+    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
 
   '@typescript-eslint/eslint-plugin@8.70.1':
     resolution: {integrity: sha512-nDNrUQ/4ruSNYbu749TRY7cfrzPtoLHEXSNBI8aaNY32LlZCajixqRf3FqcKC4p5Cam4VOHYx/t+i5+nKXvrqA==}
@@ -1332,8 +1332,8 @@ packages:
   uc.micro@1.0.6:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
 
-  undici-types@8.3.0:
-    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -1680,9 +1680,9 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@26.4.0':
+  '@types/node@26.6.2':
     dependencies:
-      undici-types: 8.3.0
+      undici-types: 8.9.0
 
   '@typescript-eslint/eslint-plugin@8.70.1(@typescript-eslint/parser@8.70.1(eslint@10.9.1(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.9.1(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)':
     dependencies:
@@ -1775,11 +1775,11 @@ snapshots:
       '@typescript-eslint/types': 8.70.1
       eslint-visitor-keys: 5.0.1
 
-  '@vituum/vite-plugin-pug@2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))':
+  '@vituum/vite-plugin-pug@2.0.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))':
     dependencies:
       pug: 3.0.4
-      vite: 8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
-      vituum: 2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vite: 8.3.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vituum: 2.0.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
     transitivePeerDependencies:
       - '@types/node'
       - '@vitejs/devtools'
@@ -2576,7 +2576,7 @@ snapshots:
 
   uc.micro@1.0.6: {}
 
-  undici-types@8.3.0: {}
+  undici-types@8.9.0: {}
 
   uri-js@4.4.1:
     dependencies:
@@ -2584,7 +2584,7 @@ snapshots:
 
   varint@6.0.0: {}
 
-  vite@8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0):
+  vite@8.3.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -2592,18 +2592,18 @@ snapshots:
       rolldown: 1.2.11
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.6.2
       esbuild: 0.27.2
       fsevents: 2.3.3
       sass: 1.105.0
       sass-embedded: 1.105.0
 
-  vituum@2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0):
+  vituum@2.0.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0):
     dependencies:
       chokidar: 5.0.0
       picomatch: 4.0.4
       tinyglobby: 0.2.15
-      vite: 8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vite: 8.3.1(@types/node@26.6.2)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
     transitivePeerDependencies:
       - '@types/node'
       - '@vitejs/devtools'
