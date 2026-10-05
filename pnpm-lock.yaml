@@ -17,7 +17,7 @@ importers:
         version: 26.4.0
       '@vituum/vite-plugin-pug':
         specifier: ^2.0.1
-        version: 2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))
+        version: 2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.2(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))
       eslint:
         specifier: ^10.9.1
         version: 10.9.1(supports-color@8.1.1)
@@ -34,8 +34,8 @@ importers:
         specifier: ^8.70.1
         version: 8.70.1(eslint@10.9.1(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)
       vite:
-        specifier: ^8.3.1
-        version: 8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+        specifier: ^8.3.2
+        version: 8.3.2(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
 
 packages:
 
@@ -1341,8 +1341,8 @@ packages:
   varint@6.0.0:
     resolution: {integrity: sha512-cXEIW6cfr15lFv563k4GuVuW/fiwjknytD37jIOLSdSWuOI6WnO/oKwmP2FQTU2l01LP8/M5TSAJpzUaGe3uWg==}
 
-  vite@8.3.1:
-    resolution: {integrity: sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA==}
+  vite@8.3.2:
+    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1775,10 +1775,10 @@ snapshots:
       '@typescript-eslint/types': 8.70.1
       eslint-visitor-keys: 5.0.1
 
-  '@vituum/vite-plugin-pug@2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))':
+  '@vituum/vite-plugin-pug@2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)(vite@8.3.2(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0))':
     dependencies:
       pug: 3.0.4
-      vite: 8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vite: 8.3.2(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
       vituum: 2.0.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -2584,7 +2584,7 @@ snapshots:
 
   varint@6.0.0: {}
 
-  vite@8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0):
+  vite@8.3.2(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -2603,7 +2603,7 @@ snapshots:
       chokidar: 5.0.0
       picomatch: 4.0.4
       tinyglobby: 0.2.15
-      vite: 8.3.1(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
+      vite: 8.3.2(@types/node@26.4.0)(esbuild@0.27.2)(sass-embedded@1.105.0)(sass@1.105.0)
     transitivePeerDependencies:
       - '@types/node'
       - '@vitejs/devtools'
